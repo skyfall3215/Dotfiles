@@ -24,6 +24,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty
 
+# Shutdown menu
+bindsym $mod+BackSpace exec sh ~/.config/i3/shutdownmenu.sh
+
 # kill focused window
 bindsym $mod+q kill
 
