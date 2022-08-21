@@ -9,6 +9,7 @@ kitty
 sway
 waybar
 Ubuntu Fonts
+wofi
 light
 flameshot
 lxappearance
