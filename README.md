@@ -11,6 +11,11 @@ waybar
 Ubuntu Fonts
 light
 flameshot
+lxappearance
+xss-lock
+gnome-polkit
+Dracula gtk theme
+Papirus icon theme
 ```
 ##### If you use i3 you must install this packages.
 ```
@@ -25,6 +30,8 @@ xss-lock
 gnome-polkit
 picom 
 light
+Dracula gtk theme
+Papirus icon theme
 ```
 # Install
 ```
