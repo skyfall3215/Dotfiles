@@ -14,8 +14,8 @@ flameshot
 lxappearance
 xss-lock
 gnome-polkit
-Dracula gtk theme
-Papirus icon theme
+Dracula gtk theme (Please visit dracula theme website "https://draculatheme.com/gtk")
+papirus-icon-theme
 ```
 ##### If you use i3 you must install this packages.
 ```
@@ -30,8 +30,8 @@ xss-lock
 gnome-polkit
 picom 
 light
-Dracula gtk theme
-Papirus icon theme
+Dracula gtk theme (Please visit dracula theme website "https://draculatheme.com/gtk")
+papirus-icon-theme
 ```
 # Install
 ```
