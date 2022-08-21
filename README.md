@@ -10,6 +10,7 @@ sway
 waybar
 Ubuntu Fonts
 light
+flameshot
 ```
 ##### If you use i3 you must install this packages.
 ```
