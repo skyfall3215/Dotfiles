@@ -49,6 +49,9 @@ bindsym XF86MonBrightnessDown exec "light -U 5"
 # Screenshot
 bindsym Print exec xfce4-screenshooter -i
 
+# Launch the file manager
+bindsym $mod+t exec thunar 
+
 # Kill programs
 bindsym $mod+q kill
 

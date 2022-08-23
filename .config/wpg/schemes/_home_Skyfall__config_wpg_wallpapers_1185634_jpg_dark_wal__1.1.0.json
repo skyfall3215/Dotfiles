@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/Skyfall/.config/wpg/wallpapers/1185634.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#210606",
+        "foreground": "#e29d9d",
+        "cursor": "#e29d9d"
+    },
+    "colors": {
+        "color0": "#210606",
+        "color1": "#CE0F0F",
+        "color2": "#E71314",
+        "color3": "#DC1F20",
+        "color4": "#E71F20",
+        "color5": "#D32525",
+        "color6": "#E72223",
+        "color7": "#e29d9d",
+        "color8": "#9e6d6d",
+        "color9": "#CE0F0F",
+        "color10": "#E71314",
+        "color11": "#DC1F20",
+        "color12": "#E71F20",
+        "color13": "#D32525",
+        "color14": "#E72223",
+        "color15": "#e29d9d"
+    }
+}

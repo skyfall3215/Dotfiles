@@ -1,7 +1,7 @@
 # Font 
 font pango:Ubuntu Regular 15
 # Wallpaper
-output "*" bg ~/Resimler/wallpapers/* fill
+output "*" bg ~/.config/wpg/.current fill
 # App launcher
 set $menu wofi --show drun
 

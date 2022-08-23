@@ -13,6 +13,7 @@ wofi
 light
 flameshot
 lxappearance
+wpg
 xss-lock
 gnome-polkit
 Dracula gtk theme (Please visit dracula theme website "https://draculatheme.com/gtk")

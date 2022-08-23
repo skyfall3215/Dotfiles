@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/Skyfall/.config/wpg/wallpapers/wallpaperflare.com_wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#080708",
+        "foreground": "#e5eaea",
+        "cursor": "#e5eaea"
+    },
+    "colors": {
+        "color0": "#080708",
+        "color1": "#6E8D9E",
+        "color2": "#5AE3C3",
+        "color3": "#949494",
+        "color4": "#B5B5B5",
+        "color5": "#B6CAD4",
+        "color6": "#CACACA",
+        "color7": "#e5eaea",
+        "color8": "#a0a3a3",
+        "color9": "#6E8D9E",
+        "color10": "#5AE3C3",
+        "color11": "#949494",
+        "color12": "#B5B5B5",
+        "color13": "#B6CAD4",
+        "color14": "#CACACA",
+        "color15": "#e5eaea"
+    }
+}
