@@ -1,6 +1,7 @@
 # Dotfiles 
 
 | ![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/Mandalorian.png) |![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/thebatman.png) |
+| --- | --- |
 | ![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/forceawakens.png) |![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/darkside.png) |
 | --- | --- |
 
