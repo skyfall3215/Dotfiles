@@ -3,7 +3,7 @@
 | ![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/Mandalorian.png) |![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/thebatman.png) |
 | --- | --- |
 | ![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/forceawakens.png) |![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/darkside.png) |
-| --- | --- |
+
 
 ### Download these packages before installing
 ##### If you use sway you must install this packages.
