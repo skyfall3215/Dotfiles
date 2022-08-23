@@ -1,6 +1,7 @@
 # Dotfiles 
 
-<p align="center"><img src="https://github.com/skyfall3215/NewDotfiles/raw/main/SwayScreenshot.png"></img></p>
+| ![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/Mandalorian.png) |![Alt text](https://github.com/skyfall3215/NewDotfiles/raw/main/thebatman.png) |
+| --- | --- |
 
 ### Download these packages before installing
 ##### If you use sway you must install this packages.
