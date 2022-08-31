@@ -1,27 +1,8 @@
-#############################
-#
-## Color Variants
-#
-##############################
-set $coloract #ad853c
-set $colorin  #775b29
-set $color15  #c3ffff
-set $split    #0fbf9b
-set $coloru   #148B73
-set $color0   #0a0d0f
-set $color8   #1d272d
-set $color1   #D9A74B
+# class                 border  bground text    indicator child_border
+client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 
-
-##############################
-#
-## Colors
-#
-##############################
-# class                 border    backgr    text         indicator      child_border
-client.focused          $coloru   $coloru   $color15     $color1        $color1
-client.focused_inactive $coloru   $coloru   $color15     $color0        $color0
-client.unfocused        $color0   $color0   $color15     $color0        $color0
-client.urgent           $coloru   $coloru   $color15     $coloru        $coloru
-client.placeholder      $color0   $color8   $color15     $color0        $color8
-client.background       $color0
+client.background       #F8F8F2
