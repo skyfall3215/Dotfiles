@@ -1,0 +1,54 @@
+font:
+  normal:
+    family: Ubuntu Mono
+    style: Regular
+
+  bold:
+    family: Ubuntu Mono
+    style: Bold
+
+  italic:
+    family: Ubuntu Mono
+    style: Italic
+
+  bold_italic:
+    family: Ubuntu Mono
+    style: Bold Italic
+
+  size: 20
+
+colors:
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#dddddd'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#cc0403'
+    green:   '#19cb00'
+    yellow:  '#cecb00'
+    blue:    '#0d73cc'
+    magenta: '#cb1ed1'
+    cyan:    '#0dcdcd'
+    white:   '#dddddd'
+
+  # Bright colors
+  bright:
+    black:   '#767676'
+    red:     '#f2201f'
+    green:   '#23fd00'
+    yellow:  '#fffd00'
+    blue:    '#1a8fff'
+    magenta: '#fd28ff'
+    cyan:    '#14ffff'
+    white:   '#ffffff'
+window:
+  opacity: 0.9
+
+key_bindings:
+  - { key: V,        mods: Control|Alt, action: Paste            }
+  - { key: Equals,   mods: Control,       action: IncreaseFontSize }
+  - { key: Minus,    mods: Control,       action: DecreaseFontSize }
+  - { key: C,        mods: Control|Alt, action: Copy             }
