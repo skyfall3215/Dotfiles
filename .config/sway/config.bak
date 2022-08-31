@@ -1,9 +1,0 @@
-# Set mod and meta (alt key) buttons
-set $mod Mod4	
-set $altkey Mod1
-
-# Mod4 is win key
-# Mod1 is alt key
-
-# include configs
-include $HOME/.config/sway/config.d/*
