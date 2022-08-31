@@ -77,4 +77,4 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Terminal
-bindsym $mod+Return exec alacritty 
+bindsym $mod+Return exec kitty 
