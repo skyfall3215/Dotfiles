@@ -65,3 +65,4 @@ bar {
 	swaybar_command waybar
 	workspace_buttons yes
 }
+

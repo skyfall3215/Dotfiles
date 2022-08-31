@@ -46,9 +46,6 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec "light -A 5"
 bindsym XF86MonBrightnessDown exec "light -U 5"
 
-# Screenshot
-bindsym Print exec xfce4-screenshooter -i
-
 # Launch the file manager
 bindsym $mod+t exec thunar 
 
@@ -57,6 +54,9 @@ bindsym $mod+q kill
 
 # Power Menu
 bindsym $mod+Backspace exec sh ~/.config/sway/scripts/powermenu.sh
+
+# Screenshot tool
+bindsym Print exec sh ~/.config/sway/scripts/screenshot.sh
 
 # Reload configuration file
 bindsym $mod+Shift+r reload
