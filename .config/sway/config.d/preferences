@@ -66,3 +66,5 @@ bar {
 	workspace_buttons yes
 }
 
+# Polkit 
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
