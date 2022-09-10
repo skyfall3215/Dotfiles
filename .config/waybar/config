@@ -3,11 +3,11 @@
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 1, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
     "modules-center": [],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery","clock", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -37,8 +37,8 @@
         "format": "<span style=\"italic\">{}</span>"
     },
     "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
-        "format-disconnected": "Disconnected ",
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+        "format-disconnected": "Disconnected",
         "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
         "unknown-tag": "N/A",
         "interval": 2,
@@ -143,6 +143,26 @@
         },
         "on-click": "pavucontrol"
     },
+    "custom/powermenu": {
+        "format": "",
+        "interval": 3600,
+        "tooltip": false,
+        "on-click": "$HOME/.config/sway/scripts/powermenu.sh"
+    },  
+    "custom/screenshot": {
+        "format": "",
+        "interval": 3600,
+        "tooltip": false,
+        "on-click": "$HOME/.config/sway/scripts/screenshot.sh"
+    },
+    "custom/btHeadsetBat": {
+		"format": "{}",
+		"interval": 5,
+		"tooltip": false,
+		"exec": "$HOME/.config/sway/scripts/btheadsetbat.sh",
+		"on-scroll-up": "$HOME/.config/sway/scripts.d/sound.py --set +5",
+		"on-scroll-down": "$HOME/.config/sway/scripts.d/sound.py --set -5"
+	}, 
     "custom/media": {
         "format": "{icon} {}",
         "return-type": "json",

@@ -1,7 +1,7 @@
 # Font 
 font pango:Ubuntu Regular 15
 # Wallpaper
-output "*" bg ~/.config/wpg/.current fill
+output "*" bg ~/Pictures/wallpapers/purpleclouds.jpg fill
 # App launcher
 set $menu wofi --show drun
 
@@ -9,7 +9,7 @@ set $menu wofi --show drun
 set $gnome-schema org.gnome.desktop.interface
 
 # Startup programs
-exec_always --no-startup-id $HOME/.config/sway/scripts/start.sh
+exec_always --no-startup-id $HOME/.config/sway/scripts/starter.sh
 
 # Gaps
 for_window [class="^.*"] border pixel 2
@@ -65,6 +65,3 @@ bar {
 	swaybar_command waybar
 	workspace_buttons yes
 }
-
-# Polkit 
-exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &

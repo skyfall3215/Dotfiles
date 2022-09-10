@@ -23,7 +23,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # Fullscreen
-bindsym $mod+f fullscreen
+bindsym $mod+Shift+f fullscreen
 
 # Workspace Layout Changer
 bindsym $mod+s layout stacking
@@ -48,6 +48,9 @@ bindsym XF86MonBrightnessDown exec "light -U 5"
 
 # Launch the file manager
 bindsym $mod+t exec thunar 
+
+# Start Firefox
+bindsym $mod+f exec firefox
 
 # Kill programs
 bindsym $mod+q kill
@@ -77,4 +80,4 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Terminal
-bindsym $mod+Return exec kitty 
+bindsym $mod+Return exec konsole 

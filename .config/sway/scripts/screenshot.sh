@@ -16,7 +16,6 @@
 _date=$(date +%d%m%Y_%H%M%S)
 [[ -n "$(ps aux | grep -v grep | grep -ioE 'swappy|feh|grim|slurp')" ]] && killall swappy feh grim slurp
 [[ -n "$(ps aux | grep -v grep | grep -Ei '/bin/bash /home/.*/.config/sway/scripts.d/screenshot.sh')" ]] && killall zenity && exit
-showEditor="$(zenity --list  --title "Screenshot" --column "Show Editor" yes no)"
 
 
 

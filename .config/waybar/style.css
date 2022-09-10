@@ -80,6 +80,8 @@ window#waybar.chromium {
 #tray,
 #mode,
 #idle_inhibitor,
+#custom-powermenu,
+#custom-screenshot,
 #mpd {
     padding: 0 10px;
     margin: 6px 3px;
@@ -197,6 +199,14 @@ label:focus {
     background-color: #44475a;
 }
 
+#custom-powermenu {
+	background-color: #44475a;
+}
+
+#custom-screenshot {
+	background-color: #44475a;
+}
+
 #tray > .passive {
     -gtk-icon-effect: dim;
 }
@@ -216,20 +226,20 @@ label:focus {
 }
 
 #mpd {
-    background-color: #66cc99;
-    color: #2a5c45;
+    background-color: #44475a;
+    color: #ffffff;
 }
 
 #mpd.disconnected {
-    background-color: #f53c3c;
+    background-color: #44475a;
 }
 
 #mpd.stopped {
-    background-color: #90b1b1;
+    background-color: #44475a;
 }
 
 #mpd.paused {
-    background-color: #51a37a;
+    background-color: #44475a;
 }
 
 #language {
