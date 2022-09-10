@@ -7,7 +7,7 @@
 ### Download these packages before installing
 ##### If you use sway you must install this packages.
 ```
-kitty
+konsole
 sway
 waybar
 Ubuntu Fonts 
