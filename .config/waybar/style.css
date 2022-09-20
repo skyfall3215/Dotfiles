@@ -76,11 +76,13 @@ window#waybar.chromium {
 #backlight,
 #network,
 #pulseaudio,
-#custom-media,
 #tray,
 #mode,
 #idle_inhibitor,
+#custom-weather,
+#custom-media,
 #custom-powermenu,
+#custom-cmus,
 #custom-screenshot,
 #mpd {
     padding: 0 10px;
@@ -189,6 +191,22 @@ label:focus {
 
 #temperature {
     background-color: #44475a;
+}
+
+#custom-cmus {
+    background: #44475a;
+    color: #ffffff;
+    padding: 0 5px;
+    margin: 6px 3px;
+    min-width: 16px;
+}
+
+#custom-weather {
+    background: #44475a;
+    color: #ffffff;
+    padding: 0 5px;
+    margin: 6px 3px;
+    min-width: 16px;
 }
 
 #temperature.critical {

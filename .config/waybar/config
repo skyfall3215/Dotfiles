@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
     "modules-center": [],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "battery","clock", "tray"],
+    "modules-right": ["custom/cmus","pulseaudio", "network","custom/weather","cpu", "memory", "temperature", "backlight", "battery","clock", "tray"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -125,12 +125,12 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
+        "scroll-step": 1, // %, can be a float
+        "format": "{icon} %{volume}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
+        //"format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -155,24 +155,17 @@
         "tooltip": false,
         "on-click": "$HOME/.config/sway/scripts/screenshot.sh"
     },
-    "custom/btHeadsetBat": {
-		"format": "{}",
-		"interval": 5,
-		"tooltip": false,
-		"exec": "$HOME/.config/sway/scripts/btheadsetbat.sh",
-		"on-scroll-up": "$HOME/.config/sway/scripts.d/sound.py --set +5",
-		"on-scroll-down": "$HOME/.config/sway/scripts.d/sound.py --set -5"
-	}, 
-    "custom/media": {
-        "format": "{icon} {}",
-        "return-type": "json",
-        "max-length": 40,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    "custom/weather": {
+    "exec": "curl 'https://wttr.in/Burdur?format=3'",
+    "interval": 3600
+    },
+    "custom/cmus": {
+    "format": "♪ {}",
+    //"max-length": 15,
+    "interval": 1,
+    "exec": "cmus-remote -C \"format_print '%a - %t'\"", // artist - title
+    "exec-if": "pgrep cmus",
+    "on-click": "cmus-remote -u",                        //toggle pause
+    "escape": true                                       //handle markup entities
     }
 }
