@@ -22,7 +22,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 bindsym $mod+v split v
 
-# Open the wofi-emoji thanks Zeioth!
+# Open the wofi-emoji
 bindsym $mod+y exec ~/.config/sway/scripts/wofi-emoji
 
 # Fullscreen
