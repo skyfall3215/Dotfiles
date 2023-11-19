@@ -1,22 +1,21 @@
 # Font 
 font pango:Ubuntu Regular 15
 # Wallpaper
-output "*" bg ~/Pictures/wallpapers/purpleclouds.jpg fill
+output "*" bg ~/Pictures/wallpapers/unsplash.jpg fill
 # App launcher
 set $menu wofi --show drun
 
 # Load gnome schemas
 set $gnome-schema org.gnome.desktop.interface
 
-# Startup programs
-exec_always --no-startup-id $HOME/.config/sway/scripts/starter.sh
-
+# Start polkit
+exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1 & 
 # Gaps
 for_window [class="^.*"] border pixel 2
 gaps inner 5
 gaps outer 5
-#smart_gaps on
-#smart_borders on
+smart_gaps on
+smart_borders on
 default_border none
 
 set $mode_gaps Gaps: (o) outer, (i) inner
