@@ -9,8 +9,8 @@
 alacritty
 sway
 waybar
-Ubuntu Fonts (Already installed in config) 
-Font Awesome fonts (Already installed in config) 
+Ubuntu Fonts 
+Font Awesome fonts 
 wofi
 light
 grim
